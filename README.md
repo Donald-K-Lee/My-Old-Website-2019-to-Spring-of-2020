@@ -10,5 +10,5 @@ I learned a lot while creating this site, but because this site is meant for sho
 
 ## Demo
 <p align="center">
-<img width="1000vw" height="auto" src="https://github.com/Donald-K-Lee/My-Old-Website-2019-to-Spring-of-2020/blob/master/SiteVideoDemo.gif">
+<img width="1000vw" height="auto" src="https://github.com/Donald-K-Lee/My-Old-Website-2019-to-Spring-of-2020/blob/main/SiteVideoDemo.gif">
 </p>
