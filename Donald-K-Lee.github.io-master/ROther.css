@@ -1,0 +1,6352 @@
+@media (min-width:320px) and (max-width: 359px) { /* smartphones, iPhone, portrait 480x320 phones */ 
+
+																				/*navbar.css*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 20px;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 1px 6px;
+}
+ul.bar {
+	padding: 10px;
+}
+																						/*design.css*/
+:root {
+	/*Top*/
+	--format: 380px; /*Variable for top: 465px;, for D, H, M and S*/
+	--timer: 305px; /*Variable for top: 370px;, for the timer*/
+	--C: 311.5px; /*Variable for top: 380px;, for DC, HC, and HC*/
+	--OI: 250px; /*Variable for the top of the text Opening In*/
+	/*Top End*/
+	/*Font Size*/
+	--Timer:42.5px;
+	--DHMS: 14px;
+	--DHMSC: 37px;
+	/*End of Font Size*/
+	--skilla: 41px;
+}
+section:nth-child(1) {
+	width: 100%;
+	height:100vh;
+	z-index:-999999;
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 30%, rgba(41,41,187,1) 70%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 30%, rgba(41,41,187,1) 70%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	width: 140px;
+	border-radius: 40px;
+	top: 45%;
+	margin-left: -80px;
+    opacity: 0.7;
+}
+
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 15s 999;
+	        animation: htmla 15s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 15s 999;
+	        animation: cssa 15s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 80%;
+	-webkit-animation: pythona 15s 999;
+	 animation: pythona 15s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 20%;
+	-webkit-animation: jsa 15s 999;
+	animation: jsa 15s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+.logo {
+	width: 180px; 
+	top: 95px;
+	left: 10%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 95px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 95px;}
+}
+/*Image of me on the homepage*/
+.bg {
+	width: 63%;
+	top: 19.5%;
+	left:18%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -40px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -40px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:18%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:18%;}
+}
+	/*Timer with the element p*/
+p.t {
+	top: 185px;
+	font-size: 50px;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	top: 425px;
+	font-size: 17px;
+	color: white;
+	left:0%;
+	-webkit-animation: intro 0s 999;
+	        animation: intro 0s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+}
+@-webkit-keyframes intro {
+	0% {text-align:left;top: 300px; left: 0%;}
+	25%{text-align:left; top: 490px; left: 25%;}
+	50% {text-align:left;top: 500px; left: 0%;}
+	75% {text-align:left; top: 520px; left: 40%;}
+	100% {top: 525px; left:0%;}
+}
+@keyframes intro {
+	0% {text-align:left;top: 300px; left: 0%;}
+	25%{text-align:left; top: 490px; left: 25%;}
+	50% {text-align:left;top: 500px; left: 0%;}
+	75% {text-align:left; top: 520px; left: 40%;}
+	100% {top: 525px; left:0%;}
+}
+.Oval {
+  top: 520px;
+  font-size: 17px;
+  left: 32%;
+  width: 120px;
+  border-radius: 40px;
+  -webkit-animation: oval 0s 999;
+          animation: oval 0s 999;
+background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 0%);
+}
+.iwb {
+	width: 120px;
+	border-radius: 40px;
+	top: -120%;
+	margin-left: -110px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 13%; 	background-color:#162129;left: 67.5%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 7.5%;}
+	90% {text-align: center; top: 620px; left: 35%;}
+	100% {text-align: center;  top: 620px; background: rgb(255,255,295);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 13%; 	background-color:#162129;left: 67.5%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 7.5%;}
+	90% {text-align: center; top: 620px; left: 35%;}
+	100% {text-align: center;  top: 620px; background: rgb(255,255,295);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+#OI { /*"Site Update In" (Originally "Opening In") text*/
+	top: var(--OI);
+	font-size: 41.5px;
+}
+/*Timer for Days*/
+#DTimer {
+	top: var(--timer);
+	right:260px;
+	font-size:  var(--Timer);
+}
+/*Format for Days*/
+#D {
+	top: var(--format);
+	right:260px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	top: var(--timer);
+	right:75px;
+	font-size:  var(--Timer);
+}
+/*Format for Hours*/
+#H {
+	top: var(--format);
+	right:75px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	top: var(--timer);
+	right :-90px;
+	font-size:  var(--Timer);
+}
+/*Format for Minutes*/
+#M {
+	top: var(--format);
+	right :-90px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	top: var(--timer);
+	right:-275px;
+	font-size:  var(--Timer);
+}
+/*Format for Seconds*/
+#S {
+	top: var(--format);
+	right:-275px;
+	font-size:  var(--DHMS);
+}
+/*Start of the : between time*/
+#DC {
+	top: var(--C);
+	right:160px;
+	font-size:  var(--DHMSC);
+}
+#HC {
+	top: var(--C);
+	right:5px;
+	font-size:  var(--DHMSC);
+}
+#MC {
+	top: var(--C);
+	right:-200px;
+	font-size:  var(--DHMSC);
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 330px;
+	font-size: 35px;
+	color: white;
+}
+#dot1 {
+	top: 395px;
+	font-size: 42px;
+	center: 50%;
+	right: 40%;
+	-webkit-animation: dot1 1.2s 999;
+	        animation: dot1 1.2s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 395px;}
+	33%{top: 385px;}
+	99{top: 390px;}
+}
+@keyframes dot1 {
+	0%{top: 395px;}
+	33%{top: 385px;}
+	99{top: 390px;}
+}
+#dot2 {
+	top: 395px;
+	font-size: 42px;
+	center: 50%;
+	right: 47.5%;
+	-webkit-animation: dot2 1.2s 999;
+	        animation: dot2 1.2s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 395px;}
+	66%{top: 385px;}
+	99{	top: 390px;}
+}
+@keyframes dot2 {
+	33%{top: 395px;}
+	66%{top: 385px;}
+	99{	top: 390px;}
+}
+#dot3 {
+	top: 385px;
+	font-size: 42px;
+	color: white;
+	center: 50%;
+	right: 55%;
+	-webkit-animation: dot3 1.2s 999;
+	        animation: dot3 1.2s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 385px;}
+	33%{top: 395px;}
+	99{top: 385px;}
+}
+@keyframes dot3 {
+	0%{top: 385px;}
+	33%{top: 395px;}
+	99{top: 385px;}
+}
+/*End*/
+							/*Bottompage.css*/
+:root {
+	--vamt:-710px; /*Vertical About Me Text, paste this... var(--vamt);  */
+}
+#bp {
+	position: absolute;
+	bottom: -20px;
+}
+/*About me heading*/
+h1.ab {
+	position:relative;
+	font-size: 30px;
+	bottom: var(--vamt);
+	left:20px;
+}
+/*About me text*/
+p.amt {
+	bottom: var(--vamt);
+	font-size: 17.5px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*triangle*/
+.btri {
+	top:99.9%; /*Ensures that it doesn't go above the homepage*/
+	border-top: 50vh solid #162129;
+	border-bottom: 50vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 250px solid transparent;
+	width: 55%;
+}
+.rbtri { /*right triangle*/
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 135px 150px;
+	   object-position: 135px 150px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 30px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+.Hobbies {
+	bottom: var(--vamt);
+	font-size: 17.5px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+/*End*/
+	}
+
+@media (min-width:360px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+																				/*navbar.css*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 23.5px;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 3px 10px;
+}
+ul.bar {
+	padding:10px;
+}
+																						/*design.css*/
+:root {
+	/*Top*/
+	--format: 495px; /*Variable for top: 465px;, for D, H, M and S*/
+	--timer: 390px; /*Variable for top: 370px;, for the timer*/
+	--C: 400px; /*Variable for top: 380px;, for DC, HC, and HC*/
+	--OI: 310px; /*Variable for the top of the text Opening In*/
+	/*Top End*/
+	/*Font Size*/
+	--Timer:55px;
+	--DHMS: 19px;
+	--DHMSC: 45px;
+	/*End of Font Size*/
+	--skilla: 45px;
+}
+section:nth-child(1) {
+	width: 100%;
+	height:100vh;
+	z-index:-999999;
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 30%, rgba(41,41,187,1) 70%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 30%, rgba(41,41,187,1) 70%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	width: 140px;
+	border-radius: 40px;
+	top: 45%;
+	margin-left: -80px;
+    opacity: 0.7;
+}
+
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 20s 999;
+	        animation: htmla 20s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:65%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:65%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 20s 999;
+	        animation: cssa 20s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 60%;
+	-webkit-animation: pythona 20s 999;
+	        animation: pythona 20s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 36%;}
+	40%{top:65%; left: 18%}
+	50% {top: 40%; left: 69%;}
+	75% {top:20%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 60%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 36%;}
+	40%{top:65%; left: 18%}
+	50% {top: 40%; left: 69%;}
+	75% {top:20%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 60%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 40%;
+	-webkit-animation: jsa 20s 999;
+	        animation: jsa 20s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 34%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 80%;}
+	75% {top:20%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 40%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 34%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 80%;}
+	75% {top:20%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 40%; right:1%;}
+}
+.logo {
+	width: 230px; 
+	top: 100px;
+	left: 10%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 100px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 100px;}
+}
+/*Shadow Background image*/
+.bg {
+	width: 55%;
+	top: 16.5%;
+	left:20%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:20%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:20%;}
+}
+	/*Timer with the element p*/
+p.t {
+	top: 185px;
+	font-size: 50px;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	top: 729.5px;
+	font-size: 20px;
+	color: white;
+	left:0%;
+	-webkit-animation: intro 9s 999;
+	        animation: intro 9s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+}
+@-webkit-keyframes intro {
+	0% {text-align:left;top: 400px; left: 0%;}
+	25%{text-align:left; top: 620px; left: 25%;}
+	50% {text-align:left;top: 650px; left: 66.5%;}
+	75% {text-align:left; top: 580px; left: 60%;}
+	100% { top: 729.5px; left:0%;}
+}
+@keyframes intro {
+	0% {text-align:left;top: 400px; left: 0%;}
+	25%{text-align:left; top: 620px; left: 25%;}
+	50% {text-align:left;top: 650px; left: 66.5%;}
+	75% {text-align:left; top: 580px; left: 60%;}
+	100% { top: 729.5px; left:0%;}
+}
+.Oval {
+  top: 790px;
+  font-size: 20px;
+  left: 50%;
+  width: 140px;
+  border-radius: 40px;
+  -webkit-animation: oval 9s 999;
+          animation: oval 9s 999;
+}
+.iwb {
+	width: 140px;
+	border-radius: 40px;
+	top: -120%;
+	margin-left: -130px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 65%;}
+	75% {top: 67.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 850px; left: 35%;}
+	100% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 65%;}
+	75% {top: 67.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 850px; left: 35%;}
+	100% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+#OI { /*"Site Update In" (Originally "Opening In") text*/
+	top: var(--OI);
+	font-size: 47.5px;
+}
+/*Timer for Days*/
+#DTimer {
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+}
+/*Format for Days*/
+#D {
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+}
+/*Format for Hours*/
+#H {
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+}
+/*Format for Minutes*/
+#M {
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+}
+/*Format for Seconds*/
+#S {
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+}
+/*Start of the : between time*/
+#DC {
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+}
+#HC {
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+}
+#MC {
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 435px;
+	font-size: 50px;
+	color: white;
+}
+#dot1 {
+	top: 555px;
+	font-size: 50px;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot1 1.2s 999;
+	        animation: dot1 1.2s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 555px;}
+	33%{top: 545px;}
+	99{top: 555px;}
+}
+@keyframes dot1 {
+	0%{top: 555px;}
+	33%{top: 545px;}
+	99{top: 555px;}
+}
+#dot2 {
+	top: 550px;
+	font-size: 50px;
+	center: 50%;
+	right: 21%;
+	-webkit-animation: dot2 1.2s 999;
+	        animation: dot2 1.2s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 555px;}
+	66%{top: 545px;}
+	99{	top: 550px;}
+}
+@keyframes dot2 {
+	33%{top: 555px;}
+	66%{top: 545px;}
+	99{	top: 550px;}
+}
+#dot3 {
+	top: 545px;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 18%;
+	-webkit-animation: dot3 1.2s 999;
+	        animation: dot3 1.2s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 545px;}
+	33%{top: 555px;}
+	99{top: 545px;}
+}
+@keyframes dot3 {
+	0%{top: 545px;}
+	33%{top: 555px;}
+	99{top: 545px;}
+}
+/*End*/
+																													/*Bottompage.css*/
+:root {
+	--vamt:-465px; /*Vertical About Me Text, paste this... var(--vamt);  */
+}
+/*About me heading*/
+h1.ab {
+	position:relative;
+	font-size: 42.5px;
+	bottom: var(--vamt);
+	left:20px;
+	
+}
+/*About me text*/
+p.amt {
+	bottom: var(--vamt);
+	font-size: 16.5px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*triangle*/
+.btri {
+	top:99.9%; /*Ensures that it doesn't go above the homepage*/
+	border-top: 50vh solid #162129;
+	border-bottom: 50vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 305px solid transparent;
+	width: 50%;
+}
+.rbtri { /*right triangle*/
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 135px 150px;
+	   object-position: 135px 150px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 40px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+.Hobbies {
+	bottom: var(--vamt);
+	font-size: 20px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+/*End*/
+	}
+
+@media (min-width:414px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ 
+
+																				/*navbar.css*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 22.5px;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 3px 13px;
+}
+ul.bar {
+	padding:10px;
+}
+																						/*design.css*/
+:root {
+	/*Top*/
+	--format: 460px; /*Variable for top: 465px;, for D, H, M and S*/
+	--timer: 370px; /*Variable for top: 370px;, for the timer*/
+	--C: 390px; /*Variable for top: 380px;, for DC, HC, and HC*/
+	--OI: 310px; /*Variable for the top of the text Opening In*/
+	/*Top End*/
+	/*Font Size*/
+	--Timer:56px;
+	--DHMS: 20px;
+	--DHMSC: 46px;
+	/*End of Font Size*/
+	--skilla: 47.5px;
+}
+section:nth-child(1) {
+	width: 100%;
+	height:100vh;
+	z-index:-999999;
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 30%, rgba(41,41,187,1) 70%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 30%, rgba(41,41,187,1) 70%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	width: 140px;
+	border-radius: 40px;
+	top: 45%;
+	margin-left: -80px;
+    opacity: 0.7;
+}
+
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 20s 999;
+	        animation: htmla 20s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:65%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:65%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 20s 999;
+	        animation: cssa 20s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 60%;
+	-webkit-animation: pythona 20s 999;
+	        animation: pythona 20s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 36%;}
+	40%{top:65%; left: 18%}
+	50% {top: 40%; left: 69%;}
+	75% {top:20%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 60%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 36%;}
+	40%{top:65%; left: 18%}
+	50% {top: 40%; left: 69%;}
+	75% {top:20%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 60%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 40%;
+	-webkit-animation: jsa 20s 999;
+	        animation: jsa 20s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 34%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 80%;}
+	75% {top:20%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 40%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 34%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 80%;}
+	75% {top:20%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 40%; right:1%;}
+}
+.logo {
+	width: 230px; 
+	top: 100px;
+	left: 10%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 100px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 100px;}
+}
+/*Shadow Background image*/
+.bg {
+	width: 60%;
+	top: 17%;
+	left:20%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:20%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:20%;}
+}
+	/*Timer with the element p*/
+p.t {
+	top: 185px;
+	font-size: 50px;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	top: 500px;
+	font-size: 18px;
+	color: white;
+	left:0%;
+	-webkit-animation: intro 9s 999;
+	        animation: intro 9s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+}
+@-webkit-keyframes intro {
+	0% {text-align:left;top: 400px; left: 0%;}
+	25%{text-align:left; top: 500px; left: 25%;}
+	50% {text-align:left;top: 530px; left: 1%;}
+	75% {text-align:left; top: 510px; left: 36%;}
+	100% { top: 500px; left:0%;}
+}
+@keyframes intro {
+	0% {text-align:left;top: 400px; left: 0%;}
+	25%{text-align:left; top: 500px; left: 25%;}
+	50% {text-align:left;top: 530px; left: 1%;}
+	75% {text-align:left; top: 510px; left: 36%;}
+	100% { top: 500px; left:0%;}
+}
+.Oval {
+  top: 600px;
+  font-size: 20px;
+  left: 50%;
+  width: 140px;
+  border-radius: 40px;
+  -webkit-animation: oval 9s 999;
+          animation: oval 9s 999;
+}
+.iwb {
+	width: 140px;
+	border-radius: 40px;
+	top: -120%;
+	margin-left: -130px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 65%;}
+	75% {top: 75.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 600px; left: 35%;}
+	100% {text-align: center; top: 600px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 15%; 	background-color:#162129;left: 65%;}
+	75% {top: 79.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 600px; left: 35%;}
+	100% {text-align: center; top: 600px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+#OI { /*"Site Update In" (Originally "Opening In") text*/
+	top: var(--OI);
+	font-size: 50px;
+}
+/*Timer for Days*/
+#DTimer {
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+}
+/*Format for Days*/
+#D {
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+}
+/*Format for Hours*/
+#H {
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+}
+/*Format for Minutes*/
+#M {
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+}
+/*Format for Seconds*/
+#S {
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+}
+/*Start of the : between time*/
+#DC {
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+}
+#HC {
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+}
+#MC {
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 435px;
+	font-size: 50px;
+	color: white;
+}
+#dot1 {
+	top: 555px;
+	font-size: 50px;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot1 1.2s 999;
+	        animation: dot1 1.2s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 555px;}
+	33%{top: 545px;}
+	99{top: 555px;}
+}
+@keyframes dot1 {
+	0%{top: 555px;}
+	33%{top: 545px;}
+	99{top: 555px;}
+}
+#dot2 {
+	top: 550px;
+	font-size: 50px;
+	center: 50%;
+	right: 21%;
+	-webkit-animation: dot2 1.2s 999;
+	        animation: dot2 1.2s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 555px;}
+	66%{top: 545px;}
+	99{	top: 550px;}
+}
+@keyframes dot2 {
+	33%{top: 555px;}
+	66%{top: 545px;}
+	99{	top: 550px;}
+}
+#dot3 {
+	top: 545px;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 18%;
+	-webkit-animation: dot3 1.2s 999;
+	        animation: dot3 1.2s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 545px;}
+	33%{top: 555px;}
+	99{top: 545px;}
+}
+@keyframes dot3 {
+	0%{top: 545px;}
+	33%{top: 555px;}
+	99{top: 545px;}
+}
+/*End*/
+																													/*Bottompage.css*/
+:root {
+	--vamt:-655px; /*Vertical About Me Text, paste this... var(--vamt);  */
+}
+#bp {
+	position: absolute;
+	bottom: -60px;
+}
+/*About me heading*/
+h1.ab {
+	position:relative;
+	font-size: 40px;
+	bottom: var(--vamt);
+	left:20px;
+	
+}
+/*About me text*/
+p.amt {
+	bottom: var(--vamt);
+	font-size: 16.5px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*triangle*/
+.btri {
+	top:99.9%; /*Ensures that it doesn't go above the homepage*/
+	border-top: 55.5vh solid #162129;
+	border-bottom: 55.5vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 305px solid transparent;
+	width: 50%;
+}
+.rbtri { /*right triangle*/
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 135px 50px;
+	   object-position: 135px 50px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 35px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+.Hobbies {
+	bottom: var(--vamt);
+	font-size: 20px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+/*End*/
+	}
+
+@media (min-width:424px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+
+																				/*navbar.css*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 22.5px;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 3px 13px;
+}
+ul.bar {
+	padding:10px;
+}
+																						/*design.css*/
+:root {
+	/*Top*/
+	--format: 460px; /*Variable for top: 465px;, for D, H, M and S*/
+	--timer: 370px; /*Variable for top: 370px;, for the timer*/
+	--C: 390px; /*Variable for top: 380px;, for DC, HC, and HC*/
+	--OI: 310px; /*Variable for the top of the text Opening In*/
+	/*Top End*/
+	/*Font Size*/
+	--Timer:56px;
+	--DHMS: 20px;
+	--DHMSC: 46px;
+	/*End of Font Size*/
+	--skilla: 50px;
+}
+/*Makes page 2times longer*/
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	width: 140px;
+	border-radius: 40px;
+	top: 45%;
+	margin-left: -80px;
+    opacity: 0.7;
+}
+
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 20s 999;
+	        animation: htmla 20s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:65%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:65%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 20s 999;
+	        animation: cssa 20s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 60%;
+	-webkit-animation: pythona 20s 999;
+	        animation: pythona 20s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 36%;}
+	40%{top:65%; left: 18%}
+	50% {top: 40%; left: 69%;}
+	75% {top:20%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 60%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 36%;}
+	40%{top:65%; left: 18%}
+	50% {top: 40%; left: 69%;}
+	75% {top:20%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 60%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 40%;
+	-webkit-animation: jsa 20s 999;
+	        animation: jsa 20s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 34%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 80%;}
+	75% {top:20%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 40%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 34%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 80%;}
+	75% {top:20%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 40%; right:1%;}
+}
+.logo {
+	width: 230px; 
+	top: 100px;
+	left: 10%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 100px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 100px;}
+}
+/*Shadow Background image*/
+.bg {
+	width: 60%;
+	top: 17%;
+	left:20%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:20%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{left: -250%;}
+	100% {left:20%;}
+}
+	/*Timer with the element p*/
+p.t {
+	top: 185px;
+	font-size: 50px;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	top: 500px;
+	font-size: 18px;
+	color: white;
+	left:0%;
+	-webkit-animation: intro 9s 999;
+	        animation: intro 9s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+}
+@-webkit-keyframes intro {
+	0% {text-align:left;top: 400px; left: 0%;}
+	25%{text-align:left; top: 500px; left: 25%;}
+	50% {text-align:left;top: 530px; left: 1%;}
+	75% {text-align:left; top: 510px; left: 36%;}
+	100% { top: 500px; left:0%;}
+}
+@keyframes intro {
+	0% {text-align:left;top: 400px; left: 0%;}
+	25%{text-align:left; top: 500px; left: 25%;}
+	50% {text-align:left;top: 530px; left: 1%;}
+	75% {text-align:left; top: 510px; left: 36%;}
+	100% { top: 500px; left:0%;}
+}
+.Oval {
+  top: 600px;
+  font-size: 20px;
+  left: 50%;
+  width: 140px;
+  border-radius: 40px;
+  -webkit-animation: oval 9s 999;
+          animation: oval 9s 999;
+}
+.iwb {
+	width: 140px;
+	border-radius: 40px;
+	top: -120%;
+	margin-left: -130px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 65%;}
+	75% {top: 75.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 600px; left: 35%;}
+	100% {text-align: center; top: 600px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 44%; 	background-color:#162129;left: 40%;}
+	50% {top: 15%; 	background-color:#162129;left: 65%;}
+	75% {top: 79.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 600px; left: 35%;}
+	100% {text-align: center; top: 600px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+#OI { /*"Site Update In" (Originally "Opening In") text*/
+	top: var(--OI);
+	font-size: 50px;
+}
+/*Timer for Days*/
+#DTimer {
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+}
+/*Format for Days*/
+#D {
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+}
+/*Format for Hours*/
+#H {
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+}
+/*Format for Minutes*/
+#M {
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+}
+/*Format for Seconds*/
+#S {
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+}
+/*Start of the : between time*/
+#DC {
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+}
+#HC {
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+}
+#MC {
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 435px;
+	font-size: 50px;
+	color: white;
+}
+#dot1 {
+	top: 555px;
+	font-size: 50px;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot1 1.2s 999;
+	        animation: dot1 1.2s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 555px;}
+	33%{top: 545px;}
+	99{top: 555px;}
+}
+@keyframes dot1 {
+	0%{top: 555px;}
+	33%{top: 545px;}
+	99{top: 555px;}
+}
+#dot2 {
+	top: 550px;
+	font-size: 50px;
+	center: 50%;
+	right: 21%;
+	-webkit-animation: dot2 1.2s 999;
+	        animation: dot2 1.2s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 555px;}
+	66%{top: 545px;}
+	99{	top: 550px;}
+}
+@keyframes dot2 {
+	33%{top: 555px;}
+	66%{top: 545px;}
+	99{	top: 550px;}
+}
+#dot3 {
+	top: 545px;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 18%;
+	-webkit-animation: dot3 1.2s 999;
+	        animation: dot3 1.2s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 545px;}
+	33%{top: 555px;}
+	99{top: 545px;}
+}
+@keyframes dot3 {
+	0%{top: 545px;}
+	33%{top: 555px;}
+	99{top: 545px;}
+}
+/*End*/
+																													/*Bottompage.css*/
+:root {
+	--vamt:-505px; /*Vertical About Me Text, paste this... var(--vamt);  */
+}
+#bp {
+	position: absolute;
+	bottom: -60px;
+}
+/*About me heading*/
+h1.ab {
+	position:relative;
+	font-size: 40px;
+	bottom: var(--vamt);
+	left:20px;
+	
+}
+/*About me text*/
+p.amt {
+	bottom: var(--vamt);
+	font-size: 16.5px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*triangle*/
+.btri {
+	top:98%; /*Ensures that it doesn't go above the homepage*/
+	border-top: 51vh solid #162129;
+	border-bottom: 51vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 225px solid transparent;
+	width: 51%;
+}
+.rbtri { /*right triangle*/
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 155px 0px;
+	   object-position: 155px 0px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 35px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+.Hobbies {
+	bottom: var(--vamt);
+	font-size: 20px;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 25px;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 25px;}
+}
+/*End*/
+	}
+
+@media (min-width:561px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+			/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 25px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 535px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 430px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 430px;
+	/*Variable for the text Opening In*/
+	--OI: 350px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 60px;
+}
+html {
+	height: 200%;
+}
+section:nth-child(1) {
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 20%, rgba(41,41,187,1) 70%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 20%, rgba(41,41,187,1) 70%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 15s 999;
+	        animation: htmla 15s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 15s 999;
+	        animation: cssa 15s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 80%;
+	-webkit-animation: pythona 15s 999;
+	        animation: pythona 15s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 20%;
+	-webkit-animation: jsa 15s 999;
+	        animation: jsa 15s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	/*Height must = to the height to the tint*/
+	height:40vh;
+	max-height:50vw;
+	width: auto;
+	top: 15%;
+	left:25%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:25%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:25%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	font-size: calc(0.8em + 1vw);
+	color: white;
+	left:0%;
+	-webkit-animation: intro 8s 999;
+	animation: intro 8s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top:76%; 
+}
+@-webkit-keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:0%;}
+	100% { text-align:center;top: 76%; left:0%;}
+}
+@keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:0%;}
+	100% { text-align:center;top: 76%; left:0%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 760px;
+	text-align: center;
+	font-size: calc(1em + 1vw);
+	left: 35%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 8s 999;
+	        animation: oval 8s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 70%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 37%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 37%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 70%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 37%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 37%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 240px; 
+	height: auto;
+	top: 12.5%;
+	left: 7%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 60px;
+	color : white;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-460px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+#bottom{
+	position:static;
+	bottom:0%;
+	background-color:#ffffff;
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+    font-size: calc(2em + 1vw);
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+  font-size: calc(0.9em + 1vw);
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+}
+/*triangle*/
+.btri {
+	top:100%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50vh solid #162129;
+	border-bottom: 50vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 52.5%;
+}
+.rbtri { /*right triangle*/
+	top:100%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: auto;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 140px 0px;
+	   object-position: calc(8em + 10vw) 0px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	  font-size: calc(2em + 1vw);
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	  font-size: calc(0.9em + 1vw);
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+/*End*/
+}
+
+/*\\\IGNORE!!!///*/
+@media (min-width:750px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: auto;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: calc(7em + 0vw) 0px;
+	   object-position: calc(7em + 0vw) 0px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+}
+/*///IGNORE!!!\\\*/
+
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+			/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 25px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 535px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 430px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 430px;
+	/*Variable for the text Opening In*/
+	--OI: 350px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 60px;
+}
+/*Makes page 2times longer*/
+html {
+	height: 200%;
+}
+section:nth-child(1) {
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 10%, rgba(41,41,187,1) 100%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 10%, rgba(41,41,187,1) 100%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 15s 999;
+	        animation: htmla 15s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 15s 999;
+	        animation: cssa 15s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 80%;
+	-webkit-animation: pythona 15s 999;
+	        animation: pythona 15s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 20%;
+	-webkit-animation: jsa 15s 999;
+	        animation: jsa 15s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	/*Height must = to the height to the tint*/
+	height:305px;
+	width: auto;
+	top: 15%;
+	left:30%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:30%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:30%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	font-size: calc(0.8em + 1vw);
+	color: white;
+	left:18%;
+	-webkit-animation: intro 8s 999;
+	animation: intro 8s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top:76%; 
+}
+@-webkit-keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:18%;}
+	100% { text-align:center;top: 76%; left:18%;}
+}
+@keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:18%;}
+	100% { text-align:center;top: 76%; left:18%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 760px;
+	text-align: center;
+	font-size: calc(1em + 1vw);
+	left: 35%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 8s 999;
+	        animation: oval 8s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 70%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 37%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 37%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 70%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 37%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 37%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 300px; 
+	height: auto;
+	top: 12.5%;
+	left: 17%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 60px;
+	color : white;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-460px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+#bottom{
+	position:static;
+	bottom:0%;
+	background-color:#ffffff;
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+    font-size: calc(2em + 1vw);
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+  font-size: calc(0.9em + 1vw);
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+}
+/*triangle*/
+.btri {
+	top:100%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50vh solid #162129;
+	border-bottom: 50vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 52.5%;
+}
+.rbtri { /*right triangle*/
+	top:100%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: auto;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: calc(7em + 0vw) 0px;
+	   object-position: calc(7em + 0vw)) 0px; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	  font-size: calc(2em + 1vw);
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	  font-size: calc(0.9em + 1vw);
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+/*End*/
+}
+
+@media (min-width:1024px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+			/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 25px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 535px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 430px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 430px;
+	/*Variable for the text Opening In*/
+	--OI: 350px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 60px;
+}
+/*Makes page 2times longer*/
+html {
+	height: 200%;
+}
+section:nth-child(1) {
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 10%, rgba(41,41,187,1) 100%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 10%, rgba(41,41,187,1) 100%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 15s 999;
+	        animation: htmla 15s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 15s 999;
+	        animation: cssa 15s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 80%;
+	-webkit-animation: pythona 15s 999;
+	        animation: pythona 15s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 20%;
+	-webkit-animation: jsa 15s 999;
+	        animation: jsa 15s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	/*Height must = to the height to the tint*/
+	height:305px;
+	width: auto;
+	top: 15%;
+	left:30%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:30%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:30%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	font-size: calc(0.8em + 1vw);
+	color: white;
+	left:18%;
+	-webkit-animation: intro 8s 999;
+	animation: intro 8s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top:76%; 
+}
+@-webkit-keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:18%;}
+	100% { text-align:center;top: 76%; left:18%;}
+}
+@keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:18%;}
+	100% { text-align:center;top: 76%; left:18%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 760px;
+	text-align: center;
+	font-size: 25px;
+	left: 45%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 8s 999;
+	        animation: oval 8s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 80%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 45%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 45%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 80%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 45%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 45%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 300px; 
+	height: auto;
+	top: 12.5%;
+	left: 17%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 60px;
+	color : white;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-460px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+#bottom{
+	position:static;
+	bottom:0%;
+	background-color:#ffffff;
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+    font-size: calc(2em + 1vw);
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+  font-size: calc(0.9em + 1vw);
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+}
+/*triangle*/
+.btri {
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 52.5%;
+}
+.rbtri { /*right triangle*/
+	top:100%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 0px solid #162129;
+	border-bottom: 0px solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 0px solid transparent;
+	width: 0;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: auto;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position:  calc(3em + 1vw) 0px;
+	     object-position: calc(3em + 1vw) 0px;  	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	  font-size: calc(2em + 1vw);
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	  font-size: calc(0.9em + 1vw);
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+/*End*/
+}
+
+@media (min-width:1069px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */
+			/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 25px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 535px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 430px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 430px;
+	/*Variable for the text Opening In*/
+	--OI: 350px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 60px;
+}
+/*Makes page 2times longer*/
+html {
+	height: 200%;
+}
+section:nth-child(1) {
+	background: rgb(0,0,0);
+	background: -o-linear-gradient(281deg, rgba(0,0,0,1) 10%, rgba(41,41,187,1) 100%);
+	background: linear-gradient(169deg, rgba(0,0,0,1) 10%, rgba(41,41,187,1) 100%);
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+.htmla{
+	height:var(--skilla);
+	top: 20%;
+	left: 1%;
+	-webkit-animation: htmla 15s 999;
+	        animation: htmla 15s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:40%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 83%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:1%;}
+}
+.cssa{
+	height:var(--skilla);
+	top: 80%;
+	right:1%;
+	-webkit-animation: cssa 15s 999;
+	        animation: cssa 15s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:72.5%; right: 30%}
+	50% {top: 40%; right: 70%;}
+	75% {top:80%; right: 85%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:1%;}
+}
+.pythona{
+	height:var(--skilla);
+	top: 80%;
+	-webkit-animation: pythona 15s 999;
+	        animation: pythona 15s 999;
+	left:1%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+
+@keyframes pythona {
+	0% {top: 80%;}
+	25%{left: 36%;}
+	40%{top:40%; left: 10%}
+	50% {top: 45%; left: 69%;}
+	75% {top:25%; left: 87%;}
+	90%{top: 70%; left: 52%;}
+	100% { top: 80%; left:1%;}
+}
+.jsa{
+	height:var(--skilla);
+	top: 20%;
+	-webkit-animation: jsa 15s 999;
+	        animation: jsa 15s 999;
+	right:1%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+
+@keyframes jsa {
+	0% {top: 20%;}
+	25%{right: 34%;}
+	40%{top:72.5%; right: 10%}
+	50% {top: 45%; right: 80%;}
+	75% {top:25%; right: 84%;}
+	90%{top: 70%; right: 49%;}
+	100% { top: 20%; right:1%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	/*Height must = to the height to the tint*/
+	height:305px;
+	width: auto;
+	top: 15%;
+	left:30%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:30%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:30%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	font-size: calc(0.8em + 1vw);
+	color: white;
+	left:18%;
+	-webkit-animation: intro 8s 999;
+	animation: intro 8s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top:76%; 
+}
+@-webkit-keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:18%;}
+	100% { text-align:center;top: 76%; left:18%;}
+}
+@keyframes intro {
+	0% {text-align: left; top: 10px; left: 0%;}
+	25%{text-align: left; top: 72.5%; left: 40%;}
+	50% {text-align: left; top: 75%; left: 70%;}
+	75% { text-align: left; top: 73%; left: 50%;}
+	90% { text-align:center;top: 76%; left:18%;}
+	100% { text-align:center;top: 76%; left:18%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 760px;
+	text-align: center;
+	font-size: 25px;
+	left: 45%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 8s 999;
+	        animation: oval 8s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 80%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 45%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 45%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 45%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 80%;}
+	75% {top: 77.5%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 45%;}
+	100% {text-align: center; top: 90%; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 45%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 300px; 
+	height: auto;
+	top: 12.5%;
+	left: 17%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 12.5%;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 60px;
+	color : white;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-460px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+#bottom{
+	position:static;
+	bottom:0%;
+	background-color:#ffffff;
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+    font-size: calc(2em + 1vw);
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+  font-size: calc(0.9em + 1vw);
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+}
+/*triangle*/
+.btri {
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 52.5%;
+}
+.rbtri { /*right triangle*/
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	width: 10%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: auto;
+	right:5%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position:  calc(3em + 1vw) 0px;
+	     object-position: calc(-2em + 1vw) 0px;  	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	  font-size: calc(2em + 1vw);
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	  font-size: calc(0.9em + 1vw);
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 15px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 15px;}
+}
+/*End*/
+}
+
+@media (min-width:1281px) { /* hi-res laptops and desktops */
+										/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 30px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 465px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 360px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 370px;
+	/*Variable for the text Opening In*/
+	--OI: 260px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 70px;
+}
+/*Makes page 2times longer*/
+html {
+	height: 200%;
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+
+.htmla{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 20%;
+	left: 0%;
+	-webkit-animation: htmla 24s 999;
+	        animation: htmla 24s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:70%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 95%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:0%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:70%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 95%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:0%;}
+}
+.cssa{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 80%;
+	right:0%;
+	-webkit-animation: cssa 24s 999;
+	        animation: cssa 24s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 80%;}
+	75% {top:80%; right: 95%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:0%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 80%;}
+	75% {top:80%; right: 95%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:0%;}
+}
+.pythona{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 60%;
+	-webkit-animation: pythona 24s 999;
+	        animation: pythona 24s 999;
+	left:0%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 35%;}
+	40%{top:70%; left: 20%}
+	50% {top: 40%; left: 90%;}
+	75% {top:20%; left: 95%;}
+	90%{top: 70%; left: 50%;}
+	100% { top: 60%; left:0%;}
+}
+
+@keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 35%;}
+	40%{top:70%; left: 20%}
+	50% {top: 40%; left: 90%;}
+	75% {top:20%; left: 95%;}
+	90%{top: 70%; left: 50%;}
+	100% { top: 60%; left:0%;}
+}
+.jsa{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 40%;
+	-webkit-animation: jsa 24s 999;
+	        animation: jsa 24s 999;
+	right:0%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 35%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 90%;}
+	75% {top:20%; right: 95%;}
+	90%{top: 70%; right: 50%;}
+	100% { top: 40%; right:0%;}
+}
+
+@keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 35%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 90%;}
+	75% {top:20%; right: 95%;}
+	90%{top: 70%; right: 50%;}
+	100% { top: 40%; right:0%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	z.index: -7;
+	/*Height must = to the height to the tint*/
+	height:auto;
+	width: 27%;
+	top: 32.5%;
+	left:15%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:15%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:15%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	left:19%;
+	-webkit-animation: intro 8s 999;
+	        animation: intro 8s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top: 729.5px; 
+}
+@-webkit-keyframes intro {
+	0% {top: 10px; left: 0%;}
+	25%{top: 510px; left: 40%;}
+	50% {top: 650px; left: 85%;}
+	75% { top: 610px; left: 70%;}
+	90% { text-align:left;top: 729.5px; left:19%;}
+	100% { text-align:left;top: 729.5px; left:19%;}
+}
+@keyframes intro {
+	0% {top: 10px; left: 0%;}
+	25%{top: 510px; left: 40%;}
+	50% {top: 650px; left: 85%;}
+	75% { top: 610px; left: 70%;}
+	90% { text-align:left;top: 729.5px; left:19%;}
+	100% { text-align:left;top: 729.5px; left:19%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 850px;
+	text-align: center;
+	font-size: 25px;
+	left: 35%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 8s 999;
+	        animation: oval 8s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 56%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 90%;}
+	75% {top: 75%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 35%;}
+	100% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 56%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 90%;}
+	75% {top: 75%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 35%;}
+	100% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 350px; 
+	height: auto;
+	top: 230px;
+	left: 5%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 230px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 230px;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 65px;
+	color : white;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-370px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+	font-size: 60px;
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+	font-size: 27px;
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 30px;
+}
+/*triangle*/
+.btri {
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 54.5%;
+}
+.rbtri { /*right triangle*/
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	width: 13%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 52.5%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 81.5% 100%;
+	   object-position: 81.5% 100%; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 60px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	font-size: 27px;
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 30px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 30px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 30px;}
+}
+/*End*/
+}
+
+@media (min-width:1281px) and (min-height:600px){ /*short laptops */
+										/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 30px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 465px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 360px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 370px;
+	/*Variable for the text Opening In*/
+	--OI: 260px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 70px;
+}
+/*Makes page 2times longer*/
+html {
+	height: 200%;
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+
+.htmla{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 20%;
+	left: 0%;
+	-webkit-animation: htmla 24s 999;
+	        animation: htmla 24s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:70%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 95%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:0%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:70%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 95%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:0%;}
+}
+.cssa{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 80%;
+	right:0%;
+	-webkit-animation: cssa 24s 999;
+	        animation: cssa 24s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 80%;}
+	75% {top:80%; right: 95%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:0%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 80%;}
+	75% {top:80%; right: 95%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:0%;}
+}
+.pythona{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 60%;
+	-webkit-animation: pythona 24s 999;
+	        animation: pythona 24s 999;
+	left:0%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 35%;}
+	40%{top:70%; left: 20%}
+	50% {top: 40%; left: 90%;}
+	75% {top:20%; left: 95%;}
+	90%{top: 70%; left: 50%;}
+	100% { top: 60%; left:0%;}
+}
+
+@keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 35%;}
+	40%{top:70%; left: 20%}
+	50% {top: 40%; left: 90%;}
+	75% {top:20%; left: 95%;}
+	90%{top: 70%; left: 50%;}
+	100% { top: 60%; left:0%;}
+}
+.jsa{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 40%;
+	-webkit-animation: jsa 24s 999;
+	        animation: jsa 24s 999;
+	right:0%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 35%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 90%;}
+	75% {top:20%; right: 95%;}
+	90%{top: 70%; right: 50%;}
+	100% { top: 40%; right:0%;}
+}
+
+@keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 35%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 90%;}
+	75% {top:20%; right: 95%;}
+	90%{top: 70%; right: 50%;}
+	100% { top: 40%; right:0%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	z.index: -7;
+	/*Height must = to the height to the tint*/
+	height:auto;
+	width: 24%;
+	top: 32.5%;
+	left:15%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:15%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:15%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	left:19%;
+	-webkit-animation: intro 10s 999;
+	        animation: intro 10s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top: 80%; 
+}
+@-webkit-keyframes intro {
+	0% {top: 10px; left: 0%;}
+	25%{top: 70%; left: 40%;}
+	50% {top: 60%; left: 85%;}
+	75% { top: 70%; left: 70%;}
+	90% { text-align:left;top: 80%; left:19%;}
+	100% { text-align:left;top: 80%; left:19%;}
+}
+@keyframes intro {
+	0% {top: 10px; left: 0%;}
+	25%{top: 70%; left: 40%;}
+	50% {top: 60%; left: 85%;}
+	75% { top: 70%; left: 70%;}
+	90% { text-align:left;top: 80%; left:19%;}
+	100% { text-align:left;top: 80%; left:19%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 95%;
+	text-align: center;
+	font-size: 25px;
+	left: 35%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 10s 999;
+	        animation: oval 10s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 56%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 80%;}
+	75% {top: 80%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 95%; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 35%;}
+	100% {text-align: center; top: 95%; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 56%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 80%;}
+	75% {top: 80%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 95%; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 35%;}
+	100% {text-align: center; top: 95%; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 350px; 
+	height: auto;
+	top: 200px;
+	left: 5%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 200px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 200px;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 65px;
+	color : white;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-500px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+	font-size: 60px;
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+	font-size: 27px;
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 30px;
+}
+/*triangle*/
+.btri {
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 54.5%;
+}
+.rbtri { /*right triangle*/
+	top:99%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 50.5vh solid #162129;
+	border-bottom: 50.5vh solid #162129;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	width: 13%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 52.5%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 81.5% 100%;
+	   object-position: 81.5% 100%; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 60px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	font-size: 27px;
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 30px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 30px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 30px;}
+}
+/*End*/
+}
+
+@media (min-width:1750px) { /* hi-res laptops and desktops */
+										/*Navbar*/
+/*Some static navbar CSS are in static.css*/
+li a.navbar {
+	font-size: 25px;
+	color: black;
+	/*1st number is the height of the navbar, 2nd number is the spacing between words*/
+	padding: 4px 14px;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	float:left;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.5);
+}
+ul.bar {
+	background-color: #F5F5F5;
+	/*removes the point beside each word*/
+	list-style-type:none;
+	margin:0px;
+	padding:10px;
+	overflow: hidden;
+	-webkit-box-shadow: 0 5px 35px rgba(0,0,0,.5);
+	        box-shadow: 0 5px 35px rgba(0,0,0,.5);
+}
+
+				/*Homepage*/ 
+:root {
+	/*Variable for top: 465px;, for D, H, M and S*/
+	--format: 465px;
+	/*Variable for top: 370px;, for the timer*/
+	--timer: 360px;
+	/*Variable for top: 380px;, for DC, HC, and HC*/
+	--C: 370px;
+	/*Variable for the text Opening In*/
+	--OI: 260px;
+	/*Text Font*/
+	--Timer:65px;
+	--DHMS: 22px;
+	--DHMSC: 55px;
+	/*End of Text Font*/
+	--skilla: 70px;
+}
+/*Makes page 2times longer*/
+html {
+	height: 200%;
+}
+.ttri {
+	bottom:0%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-left: 25vw solid #162129;
+	border-right: 25vw solid #162129;
+	border-top: 250px solid transparent;
+	border-bottom: 100px solid #162129;
+	width: 50%;
+}
+/*Language Hover Text*/
+.invistt {
+	visibility: hidden;
+	width: 140px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: 45%;
+	margin-left: -80px;
+	opacity: 0.7;
+}
+
+.htmla{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 20%;
+	left: 0%;
+	-webkit-animation: htmla 24s 999;
+	        animation: htmla 24s 999;
+}
+
+@-webkit-keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:70%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 95%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:0%;}
+}
+
+@keyframes htmla {
+	0% {top: 20%;}
+	25%{left: 55%;}
+	40%{top:70%; left: 30%}
+	50% {top: 40%; left: 80%;}
+	75% {top:80%; left: 95%;}
+	90%{top: 40%; left: 40%;}
+	100% { top: 20%; left:0%;}
+}
+.cssa{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 80%;
+	right:0%;
+	-webkit-animation: cssa 24s 999;
+	        animation: cssa 24s 999;
+}
+
+@-webkit-keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 80%;}
+	75% {top:80%; right: 95%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:0%;}
+}
+
+@keyframes cssa {
+	0% {top: 80%;}
+	25%{right: 55%;}
+	40%{top:70%; right: 30%}
+	50% {top: 40%; right: 80%;}
+	75% {top:80%; right: 95%;}
+	90%{top: 40%; right: 40%;}
+	100% { top: 80%; right:0%;}
+}
+.pythona{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 60%;
+	-webkit-animation: pythona 24s 999;
+	        animation: pythona 24s 999;
+	left:0%;
+}
+
+@-webkit-keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 35%;}
+	40%{top:70%; left: 20%}
+	50% {top: 40%; left: 90%;}
+	75% {top:20%; left: 95%;}
+	90%{top: 70%; left: 50%;}
+	100% { top: 60%; left:0%;}
+}
+
+@keyframes pythona {
+	0% {top: 60%;}
+	25%{left: 35%;}
+	40%{top:70%; left: 20%}
+	50% {top: 40%; left: 90%;}
+	75% {top:20%; left: 95%;}
+	90%{top: 70%; left: 50%;}
+	100% { top: 60%; left:0%;}
+}
+.jsa{
+	position:absolute;
+	height:var(--skilla);
+	width:auto;
+	top: 40%;
+	-webkit-animation: jsa 24s 999;
+	        animation: jsa 24s 999;
+	right:0%;
+}
+
+@-webkit-keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 35%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 90%;}
+	75% {top:20%; right: 95%;}
+	90%{top: 70%; right: 50%;}
+	100% { top: 40%; right:0%;}
+}
+
+@keyframes jsa {
+	0% {top: 40%;}
+	25%{right: 35%;}
+	40%{top:70%; right: 20%}
+	50% {top: 40%; right: 90%;}
+	75% {top:20%; right: 95%;}
+	90%{top: 70%; right: 50%;}
+	100% { top: 40%; right:0%;}
+}
+/*Shadow Background image*/
+.bg {
+	position: absolute;
+	z.index: -7;
+	/*Height must = to the height to the tint*/
+	height:auto;
+	width: 20%;
+	top: 32.5%;
+	left:15%;
+	/*1st number is the shadow on the right, 2nd number is the bottom shadow, and 3rd number is the opacity of the shadow*/
+	-webkit-box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	        box-shadow: -80px 30px 10px rgba(0,0,0,.5);
+	-webkit-animation: bg 3s;
+	        animation: bg 3s;
+}
+@-webkit-keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:15%;}
+}
+@keyframes bg {
+	0% {left: -500%;}
+	25%{  left: -250%;}
+	100% {left:15%;}
+}
+	/*Timer with the element p*/
+p.t {
+	position: relative;
+	display:inline;
+	top: 185px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	left: 0%;
+}
+.intro{
+	position: absolute;
+	 font-family: 'Open Sans', sans-serif;
+	display:inline;
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	left:19%;
+	-webkit-animation: intro 8s 999;
+	        animation: intro 8s 999;
+	text-shadow: -30px 15px 10px rgba(0,0,0,.5);
+	top: 729.5px; 
+}
+@-webkit-keyframes intro {
+	0% {top: 10px; left: 0%;}
+	25%{top: 510px; left: 40%;}
+	50% {top: 650px; left: 85%;}
+	75% { top: 610px; left: 70%;}
+	90% { text-align:left;top: 729.5px; left:19%;}
+	100% { text-align:left;top: 729.5px; left:19%;}
+}
+@keyframes intro {
+	0% {top: 10px; left: 0%;}
+	25%{top: 510px; left: 40%;}
+	50% {top: 650px; left: 85%;}
+	75% { top: 610px; left: 70%;}
+	90% { text-align:left;top: 729.5px; left:19%;}
+	100% { text-align:left;top: 729.5px; left:19%;}
+}
+.Oval {
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	top: 850px;
+	text-align: center;
+	font-size: 25px;
+	left: 35%;
+	color:#162129;
+	background-color:#162129;
+	width: 150px;
+	height: auto;
+	border-radius: 40px;
+	padding: 0px;
+	text-decoration: none;
+	-webkit-animation: oval 8s 999;
+	        animation: oval 8s 999;
+}
+.iwb {
+	visibility: hidden;
+	width: 170px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 40px;
+	/* Position the tooltip */
+	position: absolute;
+	top: -120%;
+	margin-left: -150px;
+	opacity: 1;
+}
+@-webkit-keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 56%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 90%;}
+	75% {top: 75%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 35%;}
+	100% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+@keyframes oval {
+	0% {top: 30%; 	background-color:#162129;left: -10%;}
+	25%{top: 56%; 	background-color:#162129;left: 40%;}
+	50% {top: 10%; 	background-color:#162129;left: 90%;}
+	75% {top: 75%; 	background-color:#162129;left: 20%;}
+	90% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%); left: 35%;}
+	100% {text-align: center; top: 850px; background: rgb(255,255,255);
+background: -o-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(22,33,41,1) 82%);left: 35%;}
+}
+.Oval:hover:after {
+	content:"";
+	background: url(Lightning1.jpg);
+	background-size:cover;
+	position: absolute;
+	center: 100%;
+	top:0;
+	left:0;
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.logo {
+	position: absolute;
+	width: 350px; 
+	height: auto;
+	top: 230px;
+	left: 5%;
+	-webkit-animation: logo 3s;
+	        animation: logo 3s;
+}
+@-webkit-keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 230px;}
+}
+@keyframes logo {
+	0% {top: -1105px;}
+	100% {top: 230px;}
+}
+#Stand { /*Please stand by end text*/
+	position: absolute;
+	display:inline;
+	top: 420px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#dot1 {
+	position: absolute;
+	display:inline;
+	top: 435px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 25%;
+	-webkit-animation: dot1 1.5s 999;
+	        animation: dot1 1.5s 999;
+}
+@-webkit-keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+@keyframes dot1 {
+	0%{top: 435px;}
+	33%{top: 425px;}
+	99{top: 435px;}
+}
+#dot2 {
+	position: absolute;
+	display:inline;
+	top: 430px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 24%;
+	-webkit-animation: dot2 1.5s 999;
+	        animation: dot2 1.5s 999;
+}
+@-webkit-keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+@keyframes dot2 {
+	33%{top: 435px;}
+	66%{top: 425px;}
+	99{	top: 430px;}
+}
+#dot3 {
+	position: absolute;
+	display:inline;
+	top: 425px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	center: 50%;
+	right: 23%;
+	-webkit-animation: dot3 1.5s 999;
+	        animation: dot3 1.5s 999;
+}
+@-webkit-keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+@keyframes dot3 {
+	0%{top: 425px;}
+	33%{top: 435px;}
+	99{top: 425px;}
+}
+	/*"Opening In" text*/
+#OI {
+	position: absolute;
+	top: var(--OI);
+	text-align: center;
+	font-size: 65px;
+	color : white;
+	width:100%;
+	left:0%;
+}
+/*Timer for Days*/
+#DTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:285px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Days*/
+#D {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:285px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Hours*/
+#HTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:100px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Hours*/
+#H {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:100px;
+	font-size:  var(--DHMS);
+	color: white;
+	center: 50%;
+}
+/*Timer for Minutes*/
+#MTimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right :-85px;
+	font-size:  var(--Timer);
+	color: white;
+}
+/*Format for Minutes*/
+#M {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right :-85px;
+	font-size:  var(--DHMS);
+	color:white;
+	center: 50%;
+}
+/*Timer for Seconds*/
+#STimer {
+	position: absolute;
+	display:inline;
+	top: var(--timer);
+	right:-270px;
+	font-size:  var(--Timer);
+	color:white;
+}
+/*Format for Seconds*/
+#S {
+	position: absolute;
+	display:inline;
+	top: var(--format);
+	right:-270px;
+	font-size:  var(--DHMS);
+	color: white;
+}
+/*Start of the : between time*/
+#DC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:185px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#HC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:10px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+#MC {
+	position: absolute;
+	display:inline;
+	top: var(--C);
+	right:-195px;
+	font-size:  var(--DHMSC);
+	color: white;
+}
+/*End*/
+				/*Bottom Page*/
+:root {
+	--vamt:-370px; /*Bottom: About Me Text, paste this... var(--vamt);  */
+}
+/*About me heading*/
+h1.ab {
+	top:0%;
+	position:relative;
+	text-align: center;
+	font-size: 60px;
+	bottom: var(--vamt);
+	color: white;
+ font-family: 'Open Sans', sans-serif;
+}
+/*About me text*/
+p.amt {
+	position: relative;
+	color: white;
+	bottom: var(--vamt);
+	font-size: 30px;
+ font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 50px;
+}
+/*triangle*/
+.btri {
+	top:98%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 51vh solid #162129;
+	border-bottom: 51vh solid #162129;
+	border-left: 0px solid transparent;
+	border-right: 120px solid transparent;
+	width: 51.5%;
+}
+.rbtri { /*right triangle*/
+	top:98%; /*Ensures that it doesn't go above the homepage*/
+	position: absolute;
+	border-top: 51vh solid #162129;
+	border-bottom: 51vh solid #162129;
+	border-left: 100px solid transparent;
+	border-right: 0px solid transparent;
+	width: 15%;
+	right:0%;
+}
+/*The left section of the about me page*/
+section.left {
+	position: absolute;
+	bottom: -100%;
+	border-top: 500px solid transparent;
+	border-bottom: 500px solid transparent;
+	border-left: 0px solid transparent;
+	border-right: 100px solid transparent;
+	width: 50%;
+}
+/*about me image*/
+.profile {
+	position: absolute;
+	bottom: -50%;
+	height: 100%;
+	width: 100%;
+	right:0%;
+	-o-object-fit: contain;
+	   object-fit: contain;
+	-o-object-position: 77.5% 100%;
+	   object-position: 77.5% 100%; 	/*position with the x/y cordinates, 50% 50% is the default value*/
+}
+h2.HAI{ /*Hobbies and Interests*/
+	position:relative;
+	bottom: var(--vamt);
+	left: 20px;
+	font-size: 60px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+/*to scroll to the bottom of the page*/
+#bp {
+	position: absolute;
+	bottom: -200%;
+}
+.Hobbies {
+		position: relative;
+	color: white;
+	bottom: var(--vamt);
+	font-size: 30px;
+	 font-family: 'Open Sans', sans-serif;
+	-webkit-animation: amtslide 4s 1;
+	        animation: amtslide 4s 1;
+	left: 50px;
+	text-align:left;
+}
+/*Animation for About me start*/
+@-webkit-keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 50px;}
+}
+@keyframes amtslide {
+	0% {text-align:left; left:-1500px;}
+	25%{text-align:left; left:-1000px;}
+	50% {text-align:left; left:-500px;}
+	100% {bottom: var(--vamt); left: 50px;}
+}
+/*End*/
+}
